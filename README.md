@@ -1,16 +1,16 @@
-# shooter_game
+# TicTacToe
 
-A new Flutter project.
+A tic-tac-toe game made in flutter
 
-## Getting Started
+<!-- [Check out the Android App](https://www.google.com) -->
 
-This project is a starting point for a Flutter application.
+<!-- !To be hosted -->
+<!-- [Check out the Web App](https://www.google.com) -->
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# Screenshot
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+|                                    |                                    |
+| ---------------------------------- | ---------------------------------- |
+| ![Image 1](media/Screenshot-1.png) | ![Image 2](media/Screenshot-2.png) |

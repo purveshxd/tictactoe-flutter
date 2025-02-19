@@ -1,6 +1,7 @@
 import 'dart:developer' as dev;
 
 import 'package:confetti/confetti.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 class GamePage extends StatefulWidget {
@@ -100,12 +101,11 @@ class _GamePageState extends State<GamePage> {
             alignment: Alignment.center,
             clipBehavior: Clip.hardEdge,
             children: [
-              Image.asset(
-                'android-frame.png',
-
-                // width: 412,
-                // height: 915,
-              ),
+              kIsWeb
+                  ? Image.asset(
+                      'assets/android-frame.png',
+                    )
+                  : SizedBox(),
               SizedBox(
                 width: MediaQuery.sizeOf(context).height * .55,
                 child: Column(
